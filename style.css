@@ -1,0 +1,42 @@
+/*  공통 css */
+div {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  background-color: dodgerblue;
+  border: 10px solid orange;
+  float: left;
+}
+
+.box1 {
+  border-radius: 20px;
+}
+
+.box2 {
+  border-radius: 20px;
+}
+
+/* box 가 200 * 200 이므로 border-radius 를 200으로 주면 원이 된다. */
+.box3 {
+  border-radius: 200px;
+}
+
+.box4 {
+  border-radius: 50px 0px 50px 0px;
+}
+
+.box5 {
+  border-radius: 200px 0px 0px 0px;
+}
+
+.box6 {
+  border-radius: 200px 200px 200px 0;
+}
+
+.box7 {
+  border-radius: 200px 0 200 0;
+}
+
+.box8 {
+  border-radius: 200px 200 0 0;
+}
